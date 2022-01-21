@@ -10,7 +10,7 @@ app_icon = "octicon octicon-file-directory"
 app_color = "grey"
 app_email = "maheshwaribhavesh95863@gmail.com"
 app_license = "MIT"
-app_logo_url = '/assets/whitelabel/images/whitelabel_logo.jpg'
+app_logo_url = '/files/logo.jpg'
 
 # Includes in <head>
 # ------------------
@@ -47,8 +47,8 @@ web_include_css = "/assets/whitelabel/css/whitelabel_web.css"
 # get_website_user_home_page = "whitelabel.utils.get_home_page"
 
 website_context = {
-	"favicon": "/assets/whitelabel/images/whitelabel_logo.jpg",
-	"splash_image": "/assets/whitelabel/images/whitelabel_logo.jpg"
+	"favicon": "/files/favicon.jpg",
+	"splash_image": "/files/favicon.jpg"
 }
 after_migrate = ['whitelabel.api.whitelabel_patch']
 
